@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: "gg sans", "Whitney", "Helvetica Neue", sans-serif; /* Discord's font */
+    background-color: #2C2F33; /* Discord dark background */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    background-color: #23272A; /* Slightly darker Discord gray */
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #5865F2;
+}
+
+#header span {
+    display: block;
+}
+
+#header span:nth-child(1) {
+    font-size: 40px;
+    font-weight: bold;
+    color: #7289DA; /* Discord blue */
+    margin-bottom: 5px;
+}
+
+#header span:nth-child(2) {
+    font-size: 18px;
+    color: #99AAB5; /* Lighter Discord gray */
+    margin-bottom: 10px;
+}
+
+#header span:nth-child(3) {
+    font-size: 14px;
+    color: #B9BBBE; /* Subtle gray */
+    margin-bottom: 20px;
+}
+
+/* Content */
+#content {
+    padding: 20px;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #5865F2; /* Discord blurple */
+    color: white;
+    padding: 12px 24px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.button:hover {
+    background-color: #4752C4; /* Darker blurple */
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #header span:nth-child(1) {
+        font-size: 30px;
+    }
+    #header span:nth-child(2) {
+        font-size: 16px;
+    }
+    #header span:nth-child(3) {
+        font-size: 12px;
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
