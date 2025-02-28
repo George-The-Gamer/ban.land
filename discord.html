@@ -1,69 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ban.land</title>
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P:300,400,700" rel="stylesheet" type="text/css"/>
-    <link href="index.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Google Fonts & Discord Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P:300,400,700">
+    <link rel="stylesheet" href="https://discord.com/assets/gg-sans.css">
     
+    <!-- Custom Discord-Themed CSS -->
+    <link rel="stylesheet" href="discord.css">
+
+    <!-- Metadata for Social Sharing -->
     <meta name="description" content="A custom, modern Minecraft anarchy server - EST 2019"/>
     <meta property="og:title" content="ban.land">
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="A custom, modern Minecraft anarchy server - EST 2019">
     <meta property="og:image" content="barrier.png">
     <meta property="og:url" content="http://ban.land/">
-    
+
+    <!-- Minecraft Player Counter -->
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.4/dist/mc-player-counter.min.js"></script>  
-    <style>
-        body {
-            font-family: 'Press Start 2P', sans-serif;
-            background: black;
-            color: white;
-            text-align: center;
-        }
-        #title {
-            padding: 20px;
-        }
-        #title span {
-            display: block;
-        }
-        #title span:nth-child(1) {
-            font-size: 50px;
-            font-weight: bold;
-        }
-        #title span:nth-child(2) {
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-        #title span:nth-child(3) {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-        .button {
-            display: inline-block;
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            margin: 5px;
-            font-size: 14px;
-            text-decoration: none;
-            border-radius: 5px;
-            border: 2px solid #444;
-        }
-        .button:hover {
-            background-color: #555;
-        }
-    </style>
 </head>
 <body>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div id="title">
+    <div id="header">
         <span>BAN.LAND</span>
         <span>CUSTOM ANARCHY</span>
         <span>The server was shut down in 2024 for unknown reasons.</span>
+    </div>
+
+    <div id="content">
         <p>Here are a few other links you can explore:</p>
-        <div>
+        <div class="button-container">
             <a href="https://banland.fandom.com/wiki/Banland_Wiki" class="button">Player-Made History Wiki</a>
             <a href="https://discord.gg/JYG2vydrDD" class="button">Revived Discord Server of Old Players</a>
             <a href="index.html" class="button">Homepage</a>
