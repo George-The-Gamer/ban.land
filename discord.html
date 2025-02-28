@@ -13,6 +13,46 @@
     <meta property="og:url" content="http://ban.land/">
     
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.4/dist/mc-player-counter.min.js"></script>  
+    <style>
+        body {
+            font-family: 'Press Start 2P', sans-serif;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+        #title {
+            padding: 20px;
+        }
+        #title span {
+            display: block;
+        }
+        #title span:nth-child(1) {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        #title span:nth-child(2) {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        #title span:nth-child(3) {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #444;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <div id="stars"></div>
@@ -20,27 +60,13 @@
     <div id="stars3"></div>
     <div id="title">
         <span>BAN.LAND</span>
-        <br/>
         <span>CUSTOM ANARCHY</span>
-        <br/><br/>
-        <span style="font-size: 30px;">The server was shut down in 2024 for unknown reasons.</span>
-        <br/><br/>
-        <span>Here are a few other links you can explore:</span>
-        <br/><br/>
-        <div id="wiki">
-            <a style="text-decoration: none;" href="https://banland.fandom.com/wiki/Banland_Wiki">
-                <span>Player-Made History Wiki</span>
-            </a>
-        </div>
-        <div id="discord">
-            <a href="https://discord.gg/JYG2vydrDD">
-                <span>Revived Discord Server of Old Players</span>
-            </a>
-        </div>
-        <div id="homepage">
-            <a href="index.html">
-                <span>Homepage</span>
-            </a>
+        <span>The server was shut down in 2024 for unknown reasons.</span>
+        <p>Here are a few other links you can explore:</p>
+        <div>
+            <a href="https://banland.fandom.com/wiki/Banland_Wiki" class="button">Player-Made History Wiki</a>
+            <a href="https://discord.gg/JYG2vydrDD" class="button">Revived Discord Server of Old Players</a>
+            <a href="index.html" class="button">Homepage</a>
         </div>
     </div>
 </body>
